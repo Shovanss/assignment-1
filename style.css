@@ -91,11 +91,13 @@ margin-top: 45px;
  }
  
  
+
  .rectangle{
     justify-content: center;
     display: flex;
     gap: 24px;
     border-radius: 16px;
+    margin: 0 140px;
  }
  .img-row-2{
     justify-content: center;
@@ -125,4 +127,38 @@ font-weight: 900;
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
+}
+.subscription{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: 120px 140px;
+}
+
+.newsletter{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.box{
+    display: block;
+}
+
+.last{
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 120px;
+height: 50px;
+border: 0;
+padding: 15px 20px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-weight: 600;
+}
+.flex{
+    display: flex;
+    justify-content: center ;
+    margin-top: 48px;
+    padding-bottom: 80px;
 }
