@@ -1,10 +1,11 @@
 .banner{
-    background-image: url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
    justify-content: center;
    width: 1300px;
    height: 600px;
-    border-radius: 16px;
+   border-radius: 16px;
     margin: auto;
+    
     
 }
 .banner-content{
@@ -22,7 +23,10 @@ font-weight: 400;
 font-family: Merriweather;
 font-size: 72px;
 justify-content: center;
-padding-bottom: 170px;
+align-items: center;
+align-content: center;
+margin: auto;
+width: 600px;
 }
 
 .about-offer{
@@ -88,6 +92,7 @@ font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
 margin-top: 45px;
+border: 0;
  }
  
  
@@ -105,6 +110,94 @@ margin-top: 45px;
     gap: 24px;
     border-radius: 16px;
     margin-top: 24px;
+ }
+ .party-container{
+    background-color: rgba(255, 0, 0, 0.10) 0%;
+   margin: 120px 5px;
+    border-radius: 16px;
+    justify-content: center;
+    justify-content: space-around;
+   
+    
+    
+ }
+ .party-time h2{
+    padding: 100px 0;
+    text-align: center;
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+
+ }
+    
+ 
+ .time-heading{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+}
+.btn-2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.new-offer-container{
+    display: flex;
+    margin: auto;
+    width: 1300px;
+    background: #FFF;
+}
+.new-offer{
+    padding: 22px 0;
+}
+.people-img{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.new-offer-1{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.new-offer-2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+
+font-weight: 900;
+
+
+}
+.new-offer-3{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+
+}
+.new-offer-4{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.new-offer-5{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+ .new-offer-image{
+    width: 400px;
+    height: 400px;
+     border-radius: 400px;
+    border: 10px solid #FF0000;
+    padding: 20px;
+    margin: auto;
  }
 .offer{
     text-align: left;
@@ -161,4 +254,15 @@ font-weight: 600;
     justify-content: center ;
     margin-top: 48px;
     padding-bottom: 80px;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-top: 80px;
 }
